@@ -1,0 +1,12 @@
+:root { color-scheme: light dark; }
+body { margin: 0; background: #faf8fc; color: #1d1530; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 12px; }
+h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+a { color: #b0166f; }
+.updated, .contact { color: #6c6385; font-size: 0.9rem; }
+@media (prefers-color-scheme: dark) {
+  body { background: #120c22; color: #f2eefb; }
+  a { color: #ff7fc4; }
+  .updated, .contact { color: #a79cc4; }
+}
